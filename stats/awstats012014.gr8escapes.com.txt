@@ -1,0 +1,2012 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 23222               
+POS_DAY 36521               
+POS_DOMAIN 3570                
+POS_LOGIN 4088                
+POS_ROBOT 4285                
+POS_WORMS 4940                
+POS_EMAILSENDER 5071                
+POS_EMAILRECEIVER 5214                
+POS_SESSION 37426               
+POS_SIDER 37639               
+POS_FILETYPES 5349                
+POS_OS 5652                
+POS_BROWSER 5804                
+POS_SCREENSIZE 6353                
+POS_UNKNOWNREFERER 6427                
+POS_UNKNOWNREFERERBROWSER 7119                
+POS_ORIGIN 7517                
+POS_SEREFERRALS 7664                
+POS_PAGEREFS 7821                
+POS_SEARCHWORDS 8441                
+POS_KEYWORDS 8637                
+POS_MISC 2212                
+POS_ERRORS 8742                
+POS_CLUSTER 3944                
+POS_SIDER_404 8904                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140201001438 6605 1852763 41604461884
+FirstTime 20140101073829
+LastTime 20140131223826
+LastUpdate 20140202013441 6605 0 0 1 6603
+TotalVisits 369                 
+TotalUnique 205                 
+MonthHostsKnown 179                 
+MonthHostsUnknown 50                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 54 3940376 895 964 8621873
+1 12 225 6784510 1424 1480 12874937
+2 66 320 11400995 2691 2750 37449421
+3 111 630 10089035 3081 3166 28184217
+4 45 177 407112 3070 3188 32100958
+5 43 288 5079013 4338 4465 53277286
+6 30 94 484893 2857 2980 26649007
+7 43 184 1612081 1738 1824 15257386
+8 86 465 16311187 1460 1570 8650469
+9 54 280 10797542 1101 1215 10443706
+10 113 1465 33153246 568 629 4679221
+11 163 1330 46659516 426 500 2887406
+12 123 596 15219623 1753 1915 19542801
+13 123 492 14559939 988 1083 12504616
+14 295 1813 27975318 2001 2099 17999784
+15 395 1704 37011994 2560 2629 22230492
+16 346 1710 20159959 2429 2529 21602335
+17 1128 2339 42515981 1407 1469 10345532
+18 168 1465 33551837 1427 1490 12883519
+19 157 970 11998585 385 443 2725569
+20 235 1448 26216548 296 394 3144262
+21 245 980 11254185 1745 1861 13029248
+22 140 817 30996585 977 1077 6225370
+23 138 1567 16895104 907 990 7874171
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+ip 2111 9910 105253848
+nz 1200 9230 250695975
+cn 711 711 5707095
+com 100 547 13731952
+net 81 423 25245773
+ua 11 103 3912853
+au 8 138 7946645
+np 7 157 12375098
+tr 5 5 130
+ca 5 90 5676796
+ru 4 4 48593
+in 4 33 529010
+sh 2 2 33031
+br 3 3 8500
+pl 3 3 21761
+za 1 48 3806289
+cz 1 1 3833
+lt 4 4 61191
+de 1 1 16791
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+info@gr8escapes.com 1 1 17 20140115123351
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+mj12bot 32112 330624238 20140131111943 0
+\wbot[\/\-] 2631 9018865 20140131235908 0
+baiduspider 2529 10296258 20140131224543 0
+yandex 1269 2562123 20140131193429 0
+googlebot 1130 15461821 20140131223623 0
+robot 20 191880 20140131191314 0
+spider 7 27911 20140129201712 0
+surveybot 6 25265 20140129100640 0
+msnbot\-media 5 2240914 20140110003158 0
+java 1 17187 20140125170352 0
+archive\.org_bot 1 16173 20140103072428 0
+netcraft 1 16561 20140110100900 0
+tencenttraveler 1 33541 20140119062137 0
+nutch 1 3837 20140105101245 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 4474 42341910 0 0
+htc 2 62440 0 0
+png 4091 18128747 0 0
+ttf 1 145672 0 0
+woff 28 1272824 0 0
+php 20 245906 0 0
+html 413 3271431 0 0
+jpg 4156 275221214 0 0
+xml 1 17 0 0
+js 4278 74931026 0 0
+Unknown 3794 17243581 0 0
+gif 152 2201317 0 0
+com 3 9079 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 1036
+winlong 219
+winnt 11630
+win2000 3
+linuxubuntu 2
+linux 1101
+macosx 7352
+winme 1
+win2003 13
+Unknown 56
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 36
+msie6.0 923
+firefox5.0 3
+webcapture 2
+firefox20.0 1
+firefox10.0 6
+firefox26.0 742
+firefox2.0.0.1 7
+firefox3.6.6 1
+lynx 4
+firefox24.0 2
+msie8.0 186
+firefox3.6.19 31
+netscape0.91 1
+msie7.0 18
+firefox23.0 5
+msie9.0 173
+Unknown 39
+opera 9
+firefox21.0 11
+firefox10.0.1 781
+firefox3.5.2 5
+firefox7.0.1 3
+msie5.5 3
+netscape4.79 1
+mozilla 342
+firefox25.0 200
+netscape5.0 1
+firefox22.0 1
+firefox14.0.1 10
+msie10.0 98
+firefox5.0.1 1
+firefox3.6.3 4
+firefox10.0.2 5
+safari 17779
+firefox3.6.8 6
+firefox15.0.1 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/3.0_(compatible;_WebCapture_2.0;_Auto;_Windows) 20140130180239
+Google_Analytics_Snippet_Validator 20140112202345
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20140118124359
+Mozilla/0.91_Beta_(Windows) 20140130180237
+Microsoft.Outlook.15 20140115123351
+- 20140125031602
+Mozilla/5.0 20140111175412
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140131212741
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140121180518
+BOT/0.1_(BOT_for_JCE) 20140121031553
+niki-bot 20140115164520
+classbot_(_http://allclasses.com) 20140130141713
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+- 20140125031602
+BOT/0.1_(BOT_for_JCE) 20140121031553
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140121180518
+Google_Analytics_Snippet_Validator 20140112202345
+niki-bot 20140115164520
+classbot_(_http://allclasses.com) 20140130141713
+Microsoft.Outlook.15 20140115123351
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2135 2224
+From1 3 3
+From2 27 27
+From3 32 57
+From4 2065 19102
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 27 27
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://www.registered-domains-list.com/com-2013/14093.html 5 5
+http://onload.pw 4 4
+http://w12files.com 4 4
+http://eurofiles.in 4 4
+https://m.facebook.com 3 3
+http://t.co/R83LEpOaLY 3 3
+http://www.facebook.com/l.php 2 2
+http://gr8escapes.co.nz 2 2
+https://www.facebook.com 2 2
+http://www.bing.com/search 1 1
+http://localhost/test/ 0 21
+http://172.16.208.1/mypicks/user/signup 0 4
+http://www.delta-search.com 1 1
+http://evuln.com/tools/malware-scanner/gr8escapes.com/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+gr8+escapes 4
+gr8escapes.com 1
+gr8escapes 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+gr8 4
+escapes 4
+gr8escapes.com 1
+gr8escapes 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 101 20303
+302 447 8840
+206 292 20032537
+400 34 20502
+500 237 73154
+404 1885 491676
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 284
+/assets/frontend/js/,u.appendChild(n).appendChild(d),d.innerHTML= 1 -
+/assets/frontend/js/+P.replace(3,8)+ 1 -
+/admin.php 8 -
+/assets/frontend/woothemes-FlexSlider/.clone 1 -
+/95 1 -
+/assets/frontend/js/===t&&b.nodeName(e, 1 -
+/assets/frontend/js/),j.id=e 1 -
+/images/property_img/gallery/thumb/13742341192_92.jpg 2 -
+/images/property_img/gallery/medium/13742342192_93.jpg 2 -
+/images/stories/food.php 1 -
+/assets/frontend/js/+this.type,this.options.selector,$.proxy(this.enter,this)),this.$element.on(eventOut+ 1 -
+/admin/pages/edit/10 1 -
+/assets/frontend/js/,$.proxy(this.blur,this)).on( 1 -
+/assets/frontend/js/===e.firstChild.getAttribute( 1 -
+/assets/frontend/js/,this.toggle) 1 -
+/assets/frontend/js/===g&&b.nodeName(i, 1 -
+/assets/frontend/js/,a=d.getElementsByTagName( 1 -
+/assets/frontend/js/===n&&t.text!==e.text 1 -
+/assets/frontend/js/,$.proxy(this.keypress,this)).on( 1 -
+/save 1 http://www.gr8escapes.com/user/accountInformation
+/assets/frontend/js/),a.value= 1 -
+/assets/frontend/js/).replace(St, 1 -
+/assets/frontend/js/+f.method+ 1 -
+/administrator/ 1 -
+/assets/frontend/js/).length&&(active=active.closest( 1 -
+/wp-login.php 11 -
+/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/pag 1 http://gr8escapes.com/page/index
+/home/privacypolicy 4 -
+/assets/frontend/js/===b.css(e, 1 -
+/assets/frontend/js/,d.style.cssText=s+ 1 -
+/assets/frontend/js/!==e.slice(0,3),a= 1 -
+/assets/frontend/js/!==e.slice(-4),s= 1 -
+/assets/frontend/js/,H,!1),e.addEventListener( 1 -
+/assets/frontend/js/)),$btn.button( 1 -
+/admin/dashboard 1 -
+/assets/frontend/js/,!0),$.support.transition&&this.$element.hasClass( 1 -
+/assets/frontend/js/).length&&h.push( 1 -
+/assets/frontend/js/submit._submit 1 -
+/assets/frontend/js/blur.validate-equalTo 1 -
+/news 2 -
+/assets/frontend/js/,$.proxy(this.keyup,this)),this.eventSupported( 1 -
+/assets/frontend/js/,a.style.cssText=(b+o.join(c+ 1 -
+/assets/frontend/js/))&&$e.attr( 1 -
+/assets/frontend/js/,t.inlineBlockNeedsLayout=3===d.offsetWidth,d.style.display= 1 -
+/assets/frontend/js/),u=o.createDocumentFragment(),u.appendChild(a),t.appendChecked=a.checked,t.checkClone=u.cloneNode(!0).cloneNode(!0).lastChild.checked,d.attachEvent&&(d.attachEvent( 1 -
+/assets/frontend/js/,d.innerHTML= 1 -
+/assets/frontend/js/),$target=$($this.attr( 1 -
+/images/property_img/gallery/medium/13742341193_92.jpg 2 -
+/webmail/ 1 -
+/news/whitianga-news/24636 2 -
+/assets/frontend/images/blue-part-top.jpg),%20url(../images/blue-part-bottom.jpg 2 http://gr8escapes.com/
+/assets/frontend/js/),this.sliding=!1,this.$element.trigger( 1 -
+/assets/frontend/js/) 7 -
+/home/howitworks 1 -
+/assets/frontend/js/),this.$element.trigger(e),this.isShown&&!e.isDefaultPrevented()&&(this.isShown=!1,this.escape(),$(document).off( 1 -
+/assets/frontend/js/,e.querySelectorAll( 1 -
+/mail/ 1 -
+/robots.txt 883 -
+/images/property_img/gallery/thumb/13742351211_95.jpg 3 -
+/images/property_img/gallery/medium/13742348271_94.jpg 2 -
+/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.co 28 http://gr8escapes.com/page
+/images/property_img/gallery/thumb/13742352521_97.jpg 2 -
+/assets/frontend/js/).replace(E, 1 -
+/home/cancellationpolicy 2 -
+/assets/frontend/images/headerTop-line.jpg),%20url(../images/headerBg.jpg 22 http://gr8escapes.com/region/index/4
+/forum/ 1 -
+/escapdetails/NZ126 1 -
+/images/property_img/gallery/medium/13742352521_97.jpg 3 -
+/assets/frontend/js/),this.$element.removeClass( 1 -
+/assets/frontend/js/),c.webm=a.canPlayType( 1 -
+/assets/frontend/js/,$.proxy(this.keydown,this)),this.$menu.on( 1 -
+/assets/frontend/js/).replace(A, 1 -
+/wp-admin/ 1 -
+/assets/frontend/js/)) 2 -
+/greatescapes/userfiles/images/sakana-chan6.jpg 2 -
+/assets/frontend/js/==this.options.trigger 1 -
+/assets/frontend/js/propertychange._change 1 -
+/assets/frontend/js/jquery.min.map 235 http://gr8escapes.com/register
+/assets/frontend/js/audio/x-m4a 1 -
+/cgi-bin/awstats.pl 1 -
+/.load_more_link 1 -
+/assets/frontend/js/).on( 1 -
+/.loginform 1 -
+/bitrix/admin/index.php 1 -
+/assets/frontend/js/text/css 1 -
+/assets/admin/js/page.js 18 http://gr8escapes.com/page
+/images/header_main.jpg 14 -
+/.gst_area 1 -
+/images/page_img/http://gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://localhost/greatescape 27 http://gr8escapes.com/page
+/assets/frontend/js/,$parent),$items.length&&(index=$items.index($items.filter( 1 -
+/assets/frontend/images/footer.jpg),%20url(../images/footer-bg.jpg 22 http://gr8escapes.com/region/index/4
+/assets/frontend/js/),n.namespace_re=n.namespace 1 -
+/administrator 1 -
+/a 1 -
+/assets/frontend/js/),transition=callback&&$.support.transition&&$active.hasClass( 1 -
+/category/Checking... 1 -
+/home/contactus 3 -
+/images/bach_thumbnail/thumb.jpg 4 -
+/greatescapes/ckfinder/ckfinder.html 2 http://gr8escapes.com/page/editpage/9
+/propertydetails/index/94 1 -
+/apple-touch-icon.png 27 -
+/assets/frontend/js/)).addClass( 1 -
+/images/property_img/gallery/medium/13742341204_92.jpg 1 -
+/images/property_img/gallery/medium/property1_2.jpg 3 http://gr8escapes.com/escapedetails/NZ00002
+/assets/frontend/js/+n.className+ 1 -
+/assets/frontend/js/1.9.1 1 -
+/div.stars-overall-top 1 -
+/89 1 -
+/gallery/Whitianga/1-bedroom-1-bathroom-villa/152013 2 -
+/do.php 1 -
+/assets/frontend/js/),c=c.replace(b, 1 -
+//temp/test.png 10 http://gr8escapes.com/charts
+/gallery/Whitianga/1-bedroom-1-bathroom-villa/question/152013 1 -
+/assets/frontend/nivo-slider/a.nivo-prevNav 1 -
+/assets/frontend/js/,f=e.split( 1 -
+/gallery 1 -
+/assets/frontend/js/),transition 1 -
+/assets/frontend/js/)&&!y.call(e.constructor.prototype, 1 -
+/admin/knowledge 4 http://gr8escapes.com/admin/subscribers/list
+/apple-touch-icon-precomposed.png 24 -
+/admin/menu/add 1 http://gr8escapes.com/admin/menu/section/list
+/news.php 1 -
+/assets/frontend/js/,clearMenus).on( 1 -
+/assets/frontend/js/),element.parent( 1 -
+/assets/frontend/nivo-slider/.nivo-slice 1 -
+/assets/frontend/nivo-slider/.nivo-box 1 -
+/assets/frontend/js/),$next.addClass( 1 -
+/assets/frontend/js/),this.$element.toggleClass( 1 -
+/user/save 3 -
+/assets/frontend/js/===n)&&(this.className&&b._data(this, 1 -
+/assets/frontend/js/,2===e.getElementsByClassName( 1 -
+/user/accountInformation 1 http://www.gr8escapes.com/user/editProfile
+/images/page_img/http://localhost/greatescapes/images/page_img/http://localhost/greatescapes/images/page_img/ 27 http://gr8escapes.com/page
+/greatescapes/userfiles/images/sakana-chan7.jpg 2 -
+/home/destination 1 -
+/assets/frontend/js/),a.setAttribute( 1 -
+/admin/menu/edit_section/3 1 http://gr8escapes.com/admin/menu/section/list
+/assets/frontend/js/===n 2 -
+/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://gr8escapes.com/im 26 http://gr8escapes.com/page
+/user/index 2 -
+/assets/frontend/js/beforeactivate._change 1 -
+/assets/frontend/js/),$(e.currentTarget).addClass( 1 -
+/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://localhost/greatescapes/images/page_img/http://localhost/gre 9 http://gr8escapes.com/page
+/assets/frontend/js/,i 1 -
+/images/stories/vito.php 2 -
+/assets/frontend/js/._submit 1 -
+/assets/frontend/js/===a.getAttribute( 1 -
+/88 1 -
+/assets/frontend/js/,$e.attr( 1 -
+/images/property_img/gallery/medium/13742341192_92.jpg 2 -
+/assets/frontend/js/avc1.42E01E' 1 -
+/greatescapes/userfiles/images/sakana-chan.jpg 2 -
+/propertydetails/index/91 1 -
+/assets/frontend/js/).off( 1 -
+/user/user/accountInfomation/save 2 http://www.gr8escapes.com/user/accountInformation
+/pma/ 1 -
+/user/accountInfomation/save 3 http://www.gr8escapes.com/user/accountInformation
+/assets/frontend/js/),e.querySelectorAll( 1 -
+/user/pages/ownerBankDetails 2 -
+/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_im 16 http://gr8escapes.com/page/index
+/images/page_img/http://localhost/greatescapes/images/page_img/ 27 http://gr8escapes.com/page
+/assets/frontend/js/.( 1 -
+/propertydetails/index/18 1 -
+/Checking... 1 -
+/assets/frontend/js/===t&&n.unshift( 1 -
+/assets/frontend/js/+n.replace(B, 1 -
+/assets/frontend/js/,n=d.getElementsByTagName( 1 -
+/.flexslider 1 -
+/assets/frontend/js/).removeAttr( 1 -
+/assets/frontend/js/)),active.trigger( 1 -
+/assets/frontend/js/).toLowerCase() 1 -
+/index/vcard 2 -
+/mail.php 1 -
+/assets/frontend/js/),l=s.appendChild(o.createElement( 1 -
+/images/property_img/gallery/thumb/13742341204_92.jpg 1 -
+/images/property_img/gallery/thumb/13742341171_92.jpg 2 -
+/assets/frontend/js/,item),i.find( 1 -
+/assets/frontend/js/+m.join( 1 -
+/98 1 -
+/assets/frontend/js/),$.support.transition&&this.$tip.hasClass( 1 -
+/greatescapes/userfiles/images/sakana-chan5.jpg 3 http://www.gr8escapes.com/contactsupport
+/gallery/Whitianga 2 -
+/assets/frontend/js/+this.selector+ 1 -
+/assets/frontend/js/,d.style.cssText= 1 -
+/images/property_img/gallery/thumb/13742342711_93.jpg 3 -
+/components/com_content/router.php 2 -
+/Chatham%20Islands 1 http://gr8escapes.com/city/index/16
+/assets/frontend/nivo-slider/.nivo-caption 1 -
+/2014 1 -
+/2013 1 -
+/assets/frontend/js/).replace(X, 1 -
+/assets/frontend/js/jquery-1.10.1.min.map 7 http://www.gr8escapes.com/user/addescape/RWUT6XCJVBTT
+/escapdetails 1 -
+/assets/frontend/js/))!==t 1 -
+/assets/frontend/js/,d._beforePrint),a.attachEvent( 1 -
+/assets/frontend/js/audio/mpeg 1 -
+/administrator/index.php 6 -
+/assets/frontend/js/._change 1 -
+/assets/frontend/js/===a.value,a.setAttribute( 1 -
+/greatescapes/ckfinder/core/connector/php/connector.php 1 -
+/assets/frontend/js/===e.nodeName.toLowerCase()&& 1 -
+/wordpress/wp-admin/ 1 -
+/user/ownerBankDetails 5 -
+/assets/frontend/js/click._change 1 -
+/assets/frontend/js/).replace(T, 1 -
+/02 1 -
+/sitemap.xml 8 -
+/admin/menu/edit_section/2 1 http://gr8escapes.com/admin/menu/section_list
+/assets/frontend/js/),option=$(target).data( 1 -
+/assets/frontend/js/.cancel 1 -
+/assets/frontend/js/,$.proxy(this.click,this)).on( 1 -
+/assets/frontend/css/style.css 1 http://www.gr8escapes.com/escapedetails/NZ00124
+/admin/login.php 1 -
+/assets/frontend/js/,e.getElementsByClassName&&e.getElementsByClassName( 1 -
+/user/allrequestBuyer 2 http://www.gr8escapes.com/user/bookingRequests
+/assets/frontend/nivo-slider/a.nivo-nextNav 1 -
+/images/property_img/gallery/medium/13742351211_95.jpg 2 -
+/images/property_img/gallery/medium/13742342181_93.jpg 3 -
+/assets/frontend/js/+this.settings.wrapper+ 1 -
+/assets/frontend/js/),d.innerHTML= 1 -
+/phpmyadmin/ 1 -
+/images/property_img/gallery/medium/13742353281_98.jpg 2 -
+/assets/frontend/js/+a.id+ 1 -
+/menu/section/list 1 http://gr8escapes.com/admin/subscribers/list
+/.well-known/autoconfig/mail/config-v1.1.xml 3 -
+/propertydetails/index/92 1 -
+/home/helpsupport 2 -
+/assets/frontend/js/).getContext( 1 -
+/assets/frontend/js/,n=Object.prototype.toString,o= 1 -
+/assets/frontend/js/),s=b.map(Ot(l, 1 -
+/propertydetails/index/89 1 -
+/images/page_img/http://gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/im 19 http://gr8escapes.com/page/index
+/assets/frontend/js/,$.proxy(this.checkPosition,this)).on( 1 -
+/images/property_img/gallery/thumb/13742348271_94.jpg 2 -
+/assets/frontend/js/,this.$element.on(eventIn+ 1 -
+/assets/frontend/js/),$.support.transition&&this.$element.hasClass( 1 -
+/blog/wp-admin/ 1 -
+/images/property_img/gallery/thumb/13742353281_98.jpg 2 -
+/blog/wp-login.php 1 
+/assets/frontend/js/),l=b.createDocumentFragment(),m=b.documentElement,n=m.firstChild,o=b.createElement( 1 -
+/assets/frontend/js/invalid-form.validate 1 -
+/images/page_img/http://gr8escapes.com/images/page_img/http://gr8escapes.com/images/page_img/http://www.gr8escapes.com/images/page_img/http://www.gr8escapes.com/images 23 http://gr8escapes.com/page/index
+/assets/frontend/js/),$.support.transition&&$parent.hasClass( 1 -
+/assets/frontend/js/===t 2 -
+/assets/frontend/js/,u=o.getElementsByTagName( 1 -
+/assets/frontend/js/,$el=this.$element,data=$el.data(),val=$el.is( 1 -
+/assets/frontend/js/===i&&(i=n.shift(),r--),o.cur=i,i&&( 1 -
+/assets/frontend/js/).addClass( 1 -
+/knowledge/index 1 http://gr8escapes.com/charts
+/assets/frontend/js/),p=b.createElement( 1 -
+/assets/frontend/js/)&&this.$element.on( 1 -
+/assets/frontend/js/),active.parent( 1 -
+/home/terms 1 -
+/propertydetails/index/96 1 -
+/images/profile_img/thumb/<div%20style= 2 -
+/assets/frontend/js/==affix 1 -
+/assets/frontend/js/).hasClass( 1 -
+/admin/menu/edit/1 1 -
+/assets/admin/js/banner.js 1 http://gr8escapes.com/banner
+/assets/frontend/js/,toggle,Dropdown.prototype.toggle).on( 1 -
+/assets/frontend/js/===r.getAttribute( 1 -
+/assets/frontend/js/)&&element.closest( 1 -
+/assets/frontend/js/===r 1 -
+/assets/frontend/js/,d.firstChild.style.width= 1 -
+/images/property_img/gallery/thumb/13742341193_92.jpg 2 -
+/assets/frontend/js/+e.nodeName+ 1 -
+/assets/frontend/js/,b.Callbacks( 1 -
+/assets/frontend/js/!==r.style.display&& 1 -
+/assets/frontend/js/+u.join( 1 -
+/assets/frontend/js/,H),e.attachEvent( 1 -
+/assets/frontend/js/)),a=d.getElementsByTagName( 1 -
+/assets/frontend/js/,d.style.width= 1 -
+/assets/frontend/js/.validate-equalTo 1 -
+/admin/favicon.png 4 -
+/images/property_img/gallery/medium/13742351821_96.jpg 3 -
+/assets/frontend/js/+F.replace( 1 -
+/assets/frontend/js/)),!e.getElementsByTagName( 1 -
+/favicon.png 21 -
+/admin/escapeList 3 -
+/assets/frontend/js/change._change 1 -
+/images/property_img/gallery/medium/13742341171_92.jpg 2 -
+/assets/frontend/js/!==o.createElement( 1 -
+/images/page_img/http://www.gr8escapes.com/images/page_img/http://localhost/greatescapes/images/page_img/ 27 http://gr8escapes.com/page
+/assets/frontend/js/,j=b.createElement(i),k=j.style,l=b.createElement( 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 229
+122.156.219.196 1009 8030 63356911 20140131182314
+195.234.136.80 785 785 2503024 20140128130155
+203-173-129-3.dsl.dyn.ihug.co.nz 367 4045 77431225 20140119075408
+122-60-221-174.jetstream.xtra.co.nz 290 1561 19729356 20140130205102
+118-93-203-32.dsl.dyn.ihug.co.nz 185 776 15165200 20140127151842
+118-93-161-48.dsl.dyn.ihug.co.nz 72 424 9375256 20140130204604
+174.127.133.74 66 72 281558 20140122172928
+13.160.153.27.broad.pt.fj.dynamic.163data.com.cn 53 53 227439 20140118175104
+84.208.205.121.broad.pt.fj.dynamic.163data.com.cn 50 50 415341 20140129121808
+194.204.205.121.broad.pt.fj.dynamic.163data.com.cn 50 50 415341 20140129124414
+150-70-75-30.trendmicro.com 1 1 11386 20140107232921
+101.208.205.121.broad.pt.fj.dynamic.163data.com.cn 20 20 166184 20140131210917
+66-90-166-101.dyn.grandenetworks.net 1 48 3806292 20140106083827
+ec2-107-20-14-124.compute-1.amazonaws.com 2 2 33574 20140114044027
+msnbot-131-253-24-61.search.msn.com 1 18 458269 20140117081139
+42.192.224.49.dyn.cust.vf.net.nz 1 1 3837 20140103080256
+122-57-253-158.jetstream.xtra.co.nz 14 100 5521418 20140120062159
+baiduspider-123-125-71-97.crawl.baidu.com 0 1 6165 
+69.58.178.56 11 11 211003 20140121180533
+proxy4.subisu.net.np 5 62 4765597 20140119212900
+host-176-40-41-11.reverse.superonline.net 5 5 88299 20140108081401
+ns228746.ovh.net 8 8 130936 20140105023155
+103-14-140-18.ip.cis.gen.nz 2 31 498255 20140123104317
+ip-210-48-78-102.iconz.net.nz 8 93 5694964 20140122091450
+202.175.135.150 11 80 4622254 20140121150513
+baiduspider-123-125-71-106.crawl.baidu.com 0 1 29111 
+31.184.236.15 1 1 16701 20140118070522
+eagle408.server4you.net 5 5 91019 20140129161700
+107-131-148-118.nzcomms.co.nz 2 82 3476451 20140112201457
+39-227-148-118.nzcomms.co.nz 1 4 3690 20140124182115
+110-175-251-107.static.tpgi.com.au 2 51 3618450 20140130225857
+msnbot-199-30-24-11.search.msn.com 0 47 3802457 
+122-102-109-83.static.dsl.unleash.net.nz 21 92 4657283 20140110125020
+239.61.89.110.broad.pt.fj.dynamic.163data.com.cn 30 30 249228 20140129150138
+hm6681.locaweb.com.br 3 3 8500 20140109230806
+69.164.111.198 1 1 16173 20140104104446
+64-120-214-178.static.hostnoc.net 1 1 16561 20140103145543
+213.231.32.78.pool.breezein.net 1 1 4086 20140124025451
+85.185.42.3 1 1 9475 20140117101105
+124.43.176.90 1 48 3806288 20140106012055
+ec2-50-16-36-247.compute-1.amazonaws.com 1 1 12158 20140118060634
+150-70-172-208.trendmicro.com 1 1 16701 20140124085527
+83.243.37.120.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140121214105
+12.11.89.110.broad.pt.fj.dynamic.163data.com.cn 20 20 166239 20140129140443
+122-62-86-251.jetstream.xtra.co.nz 7 68 4340243 20140112171447
+150-70-173-58.trendmicro.com 1 1 16701 20140124085429
+95.143.193.31 1 1 16791 20140127020901
+baiduspider-123-125-71-87.crawl.baidu.com 0 2 133120 
+4.53.51.201 1 1 4689 20140130141713
+baiduspider-123-125-71-117.crawl.baidu.com 0 1 40487 
+ec2-107-20-129-75.compute-1.amazonaws.com 0 1 1969 
+baiduspider-123-125-71-105.crawl.baidu.com 0 2 108862 
+199.196.150.27.broad.pt.fj.dynamic.163data.com.cn 40 40 332423 20140131113713
+ec2-23-21-24-219.compute-1.amazonaws.com 1 1 12151 20140119073506
+46.166.116.182 2 2 18458 20140112045233
+69.35.89.110.broad.pt.fj.dynamic.163data.com.cn 20 20 166184 20140131142832
+203-97-154-28.telstraclear.net 5 56 4078995 20140124152905
+lb1.swipehq.com 2 2 8000 20140125031556
+222.1.pppoe.fregat.ua 3 3 59557 20140121160318
+f2.8f.b6.static.xlhost.com 7 7 237269 20140115164520
+ec2-50-16-27-251.compute-1.amazonaws.com 0 1 1946 
+118-93-202-203.dsl.dyn.ihug.co.nz 5 115 8145628 20140123232650
+58.148.40.120.broad.pt.fj.dynamic.163data.com.cn 12 12 101921 20140122065322
+13.50.174.59.broad.wh.hb.dynamic.163data.com.cn 1 1 3848 20140104204122
+46-247-148-118.nzcomms.co.nz 1 16 66362 20140118164734
+free-192.63.111.176.united.net.ua 2 2 3099 20140114093125
+193.43.252.252 8 8 131496 20140122072011
+208.209.153.27.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140122045853
+159.50.86.218.broad.pt.fj.dynamic.163data.com.cn 30 30 249228 20140129144451
+175.202.26.117.broad.pt.fj.dynamic.163data.com.cn 4 4 38072 20140115192629
+abts-north-dynamic-173.182.64.182.airtelbroadband.in 4 33 529010 20140122202716
+30.85.26.117.broad.pt.fj.dynamic.163data.com.cn 10 10 83088 20140131173936
+220.187.86.110.broad.pt.fj.dynamic.163data.com.cn 10 10 83124 20140126220542
+180.150.157.16 2 39 2932212 20140125014755
+212.83.57.218 1 1 16701 20140118131922
+103-8-235-62-fibre.primowireless.co.nz 9 130 8431707 20140124161930
+88.247.42.22.static.ttnet.com.tr 5 5 130 20140115135728
+ec2-23-20-196-230.compute-1.amazonaws.com 1 1 11771 20140114084821
+174.127.133.73 1 1 4088 20140122164238
+208-115-111-70-reverse.wowrack.com 4 4 130936 20140130112451
+msnbot-65-55-213-47.search.msn.com 1 16 453885 20140117091507
+8.20.114.11 2 52 3821094 20140121134153
+122.58.81.171 12 131 6022747 20140131181443
+122.58.168.175 8 89 4342991 20140112223552
+118-92-141-123.dsl.dyn.ihug.co.nz 13 126 8440823 20140106175731
+ec2-23-20-72-195.compute-1.amazonaws.com 0 1 3458 
+31.41.217.112 4 4 36919 20140112033909
+cl-78-158-11-226.fastlink.lt 4 4 61191 20140118124359
+78.195.26.117.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140122031243
+232.225.77.222.broad.pt.fj.dynamic.163data.com.cn 10 10 83096 20140130222709
+191.235.137.27 1 1 16791 20140124224850
+94.41.189.56.dynamic.o56.ru 2 2 8181 20140124092610
+wkola.telenet.ru 1 1 16701 20140120073716
+202-0-54-164.cable.paradise.net.nz 1 54 3849675 20140131180648
+121-73-54-188.cable.telstraclear.net 3 57 3853065 20140129132636
+121-74-221-152.telstraclear.net 13 74 4207690 20140110224536
+222-155-210-129.jetstream.xtra.co.nz 1 50 3814791 20140122114640
+ec2-23-20-162-65.compute-1.amazonaws.com 1 1 11471 20140119081903
+101-98-133-202-dynamic.callplus.net.nz 6 66 4406541 20140118224620
+121-72-91-225.dsl.telstraclear.net 15 79 4368109 20140128102431
+203-118-183-15.dsl.dyn.ihug.co.nz 19 103 4786369 20140128021209
+69-194-148-118.nzcomms.co.nz 1 12 4078 20140113141513
+pie.whatbox.ca 5 90 5676796 20140130154653
+ec2-67-202-9-230.compute-1.amazonaws.com 1 1 16173 20140108075024
+119.63.193.131 1 1 16701 20140120161331
+211-krysmar.man.pulawy.pl 2 2 17675 20140128032615
+4.249.205.121.broad.pt.fj.dynamic.163data.com.cn 10 10 83088 20140131040147
+4-130-148-118.nzcomms.co.nz 1 50 3814794 20140115175112
+174.127.132.10 1 1 17093 20140122140410
+125-238-136-80.jetstream.xtra.co.nz 12 85 4683927 20140112222604
+ec2-174-129-102-122.compute-1.amazonaws.com 1 1 11656 20140111051716
+hosted-by.slaskdatacenter.pl 1 1 4086 20140119210111
+11.73.85.110.broad.pt.fj.dynamic.163data.com.cn 10 10 82989 20140123155328
+baiduspider-123-125-71-80.crawl.baidu.com 0 1 16229 
+60.173.9.240 3 3 27687 20140112200839
+203.97.83.202 1 28 489907 20140122101753
+ec2-54-201-99-209.us-west-2.compute.amazonaws.com 3 3 12270 20140123225622
+ec2-174-129-159-121.compute-1.amazonaws.com 1 1 12151 20140122035401
+118-93-220-105.dsl.dyn.ihug.co.nz 13 90 4667168 20140124202819
+host-176-43-252-233.reverse.superonline.net 1 1 16791 20140128212101
+host68-215.neohost.net 1 1 4091 20140118102427
+69.197.138.42 2 2 8163 20140120113143
+174.127.133.75 30 30 105116 20140122173932
+157.55.252.30 1 1 9459 20140103121941
+193.201.205.121.broad.pt.fj.dynamic.163data.com.cn 1 1 9463 20140114073443
+37.1.212.96 1 1 23711 20140129043046
+38.5.207.91.unknown.steephost.net 6 6 103269 20140125203611
+242.35.89.110.broad.pt.fj.dynamic.163data.com.cn 20 20 166239 20140129140434
+baiduspider-123-125-71-109.crawl.baidu.com 0 1 31596 
+162.243.117.19 1 1 16173 20140111175412
+118-93-27-178.dsl.dyn.ihug.co.nz 6 35 496741 20140101143208
+baiduspider-123-125-71-86.crawl.baidu.com 0 1 31596 
+ec2-23-20-115-183.compute-1.amazonaws.com 1 1 13102 20140114075302
+ec2-23-20-250-168.compute-1.amazonaws.com 0 1 16229 
+84.46.89.110.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140122050912
+95.145.61.219 1 49 3813278 20140120110209
+ec2-50-19-31-100.compute-1.amazonaws.com 1 1 13509 20140119084406
+38.100.21.68 9 11 132539 20140114115436
+84.234.153.27.broad.pt.fj.dynamic.163data.com.cn 30 30 249228 20140129135829
+118-92-168-146.dsl.dyn.ihug.co.nz 2 50 3810129 20140105142443
+google-proxy-66-249-84-202.google.com 1 1 3833 20140112202345
+200.51.86.218.broad.pt.fj.dynamic.163data.com.cn 20 20 166184 20140131223826
+ip118-159.200.109.crimea.com 4 4 92716 20140130180241
+150-70-97-127.trendmicro.com 1 1 11386 20140107232721
+ec2-107-22-84-18.compute-1.amazonaws.com 1 1 13217 20140118072445
+ec2-50-17-53-44.compute-1.amazonaws.com 0 1 31596 
+121.98.141-245.bitstream.orcon.net.nz 1 50 3814791 20140124085346
+75.74.85.110.broad.pt.fj.dynamic.163data.com.cn 10 10 83088 20140131041519
+32.0.155.213.hosting.ua 5 97 3833406 20140109192333
+31.184.236.94 1 1 16701 20140116085639
+180.150.157.35 4 62 2088021 20140125141226
+baiduspider-123-125-71-73.crawl.baidu.com 0 2 69598 
+0.32.252.27.dyn.cust.vf.net.nz 34 96 4346950 20140128202208
+109-226-95-204.clients.tlt.100megabit.ru 1 1 23711 20140129235912
+103.19.100.15 6 33 561297 20140115113623
+baiduspider-123-125-71-69.crawl.baidu.com 0 1 29111 
+ec2-23-22-21-169.compute-1.amazonaws.com 1 1 16593 20140112235130
+23.231.7.46 2 2 16664 20140108001353
+ks3292229.kimsufi.com 12 139 3925185 20140118145559
+ns312297.ovh.net 4 4 68372 20140121031554
+121-99-120-74.bng1.orcon.net.nz 6 59 3835732 20140113224917
+baiduspider-123-125-71-115.crawl.baidu.com 0 1 16229 
+44.118.26.117.broad.pt.fj.dynamic.163data.com.cn 20 20 166211 20140130153644
+208.115.113.86 5 5 112357 20140131212741
+94.230.125.93 2 2 16769 20140117111039
+mario.ftp.sh 2 2 33031 20140121043933
+41-132-54-174.dsl.mweb.co.za 1 48 3806289 20140105004839
+153.237.37.120.broad.pt.fj.dynamic.163data.com.cn 10 10 83124 20140127031007
+83.71.247.34 6 6 77493 20140110023325
+222-152-71-122.jetstream.xtra.co.nz 14 97 5420793 20140112160045
+202.4.pppoe.fregat.ua 1 1 16791 20140126051252
+2.245.33.120.broad.pt.fj.dynamic.163data.com.cn 20 20 166211 20140130174456
+baiduspider-123-125-71-110.crawl.baidu.com 0 2 42258 
+250.192.205.121.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140122061116
+96.44.187.203.static.quadranet.com 39 244 3257810 20140125031601
+37.8.89.110.broad.pt.fj.dynamic.163data.com.cn 1 1 9463 20140114154035
+host31.server6.vpn999.com 2 2 17122 20140112221200
+eth5471.nsw.adsl.internode.on.net 5 70 4335657 20140122113033
+164.215.77.222.broad.pt.fj.dynamic.163data.com.cn 10 10 83124 20140126210807
+unassigned.psychz.net 6 6 56850 20140118060259
+ptr.cnsat.com.cn 7 7 40447 20140128052036
+78.230.37.120.broad.pt.fj.dynamic.163data.com.cn 10 10 82989 20140123155024
+162.251.164.11 1 1 4088 20140122203156
+ec2-184-72-82-95.compute-1.amazonaws.com 1 1 16701 20140122053555
+v30.server16.vpn999.com 2 2 18248 20140110121702
+118-93-137-148.dsl.dyn.ihug.co.nz 42 203 5383500 20140126181840
+123.235.76.34 5 5 89986 20140119032803
+29.60.89.110.broad.pt.fj.dynamic.163data.com.cn 10 10 82989 20140123142648
+50.112.252.27.dyn.cust.vf.net.nz 8 128 8660674 20140122193339
+199.91.71.247 1 1 4078 20140113160102
+86.239.159.27.broad.pt.fj.dynamic.163data.com.cn 10 10 83096 20140130050624
+176.31.39.30 6 6 56391 20140108105310
+ec2-23-22-93-43.compute-1.amazonaws.com 0 1 128936 
+121.206.205.121.broad.pt.fj.dynamic.163data.com.cn 20 20 166184 20140131172810
+117.205.165.72 1 30 485267 20140101073829
+227-adsl.ntc.net.np 1 49 3807804 20140108175725
+234.234.159.27.broad.pt.fj.dynamic.163data.com.cn 10 10 83088 20140131035553
+127.203.205.121.broad.pt.fj.dynamic.163data.com.cn 30 30 249228 20140129141013
+236.163.153.27.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140121150844
+122-61-39-204.jetstream.xtra.co.nz 15 77 4623796 20140113101740
+59-100-0-182.syd.static-ipl.aapt.com.au 6 87 4328195 20140122111954
+174.127.133.70 30 30 111254 20140122173539
+170.230.37.120.broad.pt.fj.dynamic.163data.com.cn 10 10 83124 20140127120258
+118-92-108-24.dsl.dyn.ihug.co.nz 11 153 4787746 20140103160029
+96.44.160.122 13 178 3671913 20140127151129
+ec2-50-19-4-40.compute-1.amazonaws.com 1 1 12485 20140119074138
+baiduspider-123-125-71-101.crawl.baidu.com 0 1 40487 
+183.12.143.51 1 1 4087 20140122132424
+php5.air.sitehost.co.nz 0 12 144728 
+251.164.86.110.broad.pt.fj.dynamic.163data.com.cn 14 14 120871 20140122144633
+247.13.89.110.broad.pt.fj.dynamic.163data.com.cn 2 2 18950 20140121145221
+166.192.205.121.broad.pt.fj.dynamic.163data.com.cn 12 12 101921 20140122141933
+baiduspider-123-125-71-94.crawl.baidu.com 0 1 16229 
+47.157.58.59.broad.pt.fj.dynamic.163data.com.cn 20 20 166184 20140131204636
+ec2-107-22-33-78.compute-1.amazonaws.com 1 1 16981 20140113072324
+37-115-188-13-broadband.kyivstar.net 1 1 15691 20140123142643
+98.227.77.222.broad.pt.fj.dynamic.163data.com.cn 12 12 102068 20140131142256
+215.11.43.120.broad.pt.fj.dynamic.163data.com.cn 10 10 83088 20140131211538
+174.127.133.72 38 51 961338 20140122173514
+static.99.246.9.176.clients.your-server.de 1 1 16791 20140125151938
+122-61-154-17.jetstream.xtra.co.nz 4 58 3824800 20140102120132
+msnbot-199-30-24-25.search.msn.com 0 11 160387 
+120.37.251.10 3 3 28392 20140115072656
+118-93-48-200.dsl.dyn.ihug.co.nz 5 38 536554 20140111150607
+web21c40.carrierzone.com 2 2 46890 20140129080049
+119.165.202.207 6 6 99561 20140103184642
+185-25-184-197.static.netio.cz 1 1 3833 20140109230755
+83-adsl.ntc.net.np 1 46 3801697 20140105050823
+baiduspider-123-125-71-72.crawl.baidu.com 0 1 31596 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140101 8 66 984767 3
+20140102 11 172 11978113 4
+20140103 66 431 6082146 8
+20140104 20 35 204475 4
+20140105 13 194 15136887 6
+20140106 16 218 8240396 4
+20140107 4 14 263148 3
+20140108 19 67 4029582 7
+20140109 15 189 4470912 5
+20140110 47 189 9143852 6
+20140111 7 42 569810 3
+20140112 55 481 26167694 14
+20140113 45 277 10442974 7
+20140114 214 2234 49043720 11
+20140115 155 1579 27219360 14
+20140116 23 116 3950685 7
+20140117 26 199 5344806 11
+20140118 144 825 22712333 19
+20140119 21 115 4971972 10
+20140120 38 212 9307902 10
+20140121 65 427 9123171 15
+20140122 415 1465 40695034 39
+20140123 408 2180 26705096 21
+20140124 168 1056 25174565 20
+20140125 1150 3059 29286231 18
+20140126 127 208 1532578 16
+20140127 60 369 5852451 10
+20140128 283 1948 23758519 13
+20140129 352 2211 21032809 21
+20140130 159 477 16959162 20
+20140131 128 358 14690014 20
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 19
+5mn-15mn 20
+0s-30s 194
+15mn-30mn 49
+2mn-5mn 18
+30s-2mn 30
+30mn-1h 39
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1110
+/ 245 1893584 164 87
+/escapedetails/nz000098 162 1535485 80 20
+/escapedetails/2013/12 125 1178346 0 32
+/escapedetails/ 125 1190353 3 1
+/escapedetails/2014/02 125 1178346 0 30
+/search/refinesearch 97 591386 0 9
+/user/accountInformation 97 372951 5 4
+/search 93 589171 2 10
+/contactus 83 377314 1 6
+/admin/dashboard 69 197515 0 1
+/listing/index/1753 1 3025 0 0
+/escapedetails/NZ00124 17 166022 0 0
+/region/index/2 1 3039 0 0
+/listing/index/904 1 3025 0 0
+/listing/index/978 1 3026 0 0
+/city/index/2 27 111141 0 2
+/listing/index/188 1 3025 0 0
+/suburb/index/56 2 8353 0 0
+/listing/index/1711 1 3024 0 0
+/category/index/22 10 43291 0 3
+/admin/location/region/edit/79 1 2990 0 0
+/listing/index/112 1 3029 0 0
+/admin/pages/edit/10 11 36495 0 0
+/admin/editRegion/2 1 3052 0 0
+/listing/index/13 1 3052 0 0
+/listing/index/1250 1 3022 0 0
+/admin/escapes/detail/125 1 3324 0 0
+/listing/index/396 1 3025 0 0
+/listing/index/312 1 3033 0 0
+/listing/index/336 1 3024 0 0
+/user/allPendingTransCurrMnth 2 8037 0 0
+/listing/index/910 1 3024 0 0
+/ajax/getCityAjax/13 1 554 0 0
+/listing/index/1709 1 3026 0 0
+/login 55 298325 9 9
+/listing/index/1771 1 3023 0 0
+/city/index/54 6 16412 0 0
+/city/index/18 4 12064 0 0
+/suburb/index/60 3 11713 0 0
+/users/editUser/83 1 4369 0 0
+/suburb/index/ 1 3132 0 0
+/user/allTransCurrMnth 1 3963 0 0
+/listing/index/1286 1 3032 0 0
+/listing/index/1769 1 3024 0 0
+/ajax/getCityAjax/77 1 514 0 0
+/ajax/getRegionAjax/10 1 552 0 0
+/listing/index/963 1 3037 0 0
+/listing/index/353 1 3034 0 0
+/category/index/ 1 3206 0 0
+/listing/index/1762 1 3024 0 0
+/listing/index/96 1 3025 0 0
+/admin/page_list 33 115820 0 0
+/region/index/gr8escapes.com 1 3026 0 0
+/admin/deletePage/28 1 22 0 0
+/admin/adduser 1 5289 0 0
+/listing/index/1282 1 3023 0 0
+/listing/index/951 1 3027 0 0
+/listing/index/1648 1 3027 0 0
+/listing/index/871 2 6036 0 0
+/listing/index/144 1 3025 0 0
+/listing/index/323 1 3027 0 0
+/city/index/23 5 24770 0 0
+/listing/index/1279 1 3025 0 0
+/listing/index/381 1 3025 0 0
+/admin/escapeDetail/125 1 2378 0 0
+/listing/index/1742 1 3025 0 0
+/listing/index/1672 1 3025 0 0
+/listing/index/1723 1 3025 0 0
+/listing/index/193 1 3025 0 0
+/user/readmsg/38 2 8153 0 0
+/listing/index/294 1 3025 0 0
+/admin/groups/add 7 20880 0 1
+/region/index/new%20zealand 1 3039 0 0
+/listing/index/923 1 3023 0 0
+/listing/index/933 1 3024 0 0
+/suburb/index/51 2 7294 1 0
+/listing/index/971 1 3026 0 0
+/listing/index/873 1 3024 0 0
+/admin/groups/list 15 44299 0 0
+/admin/location/region/list 7 26688 0 1
+/listing/index/329 1 3022 0 0
+/admin/deletePage/20 2 44 0 0
+/listing/index/417 1 3025 0 0
+/suburb/index/94 2 7154 0 0
+/listing/index/947 1 3024 0 0
+/suburb/index/44 2 6614 0 0
+/company 15 69800 1 2
+/listing/index/330 1 3028 0 0
+/listing/index/1008 1 3025 0 0
+/listing/index/1293 1 3024 0 0
+/ajax/getCityAjax/ 1 721 0 0
+/listing/index/864 1 3031 0 0
+/suburb/index/36 2 9325 0 0
+/listing/index/125 1 3022 0 0
+/owner/detail/68 7 30822 0 1
+/listing/index/1646 1 3026 0 0
+/city/index/12 6 40044 1 1
+/listing/index/257 1 3022 0 0
+/user/notifdetails/138 1 4945 0 0
+/listing/index/133 1 3026 0 0
+/listing/index/1693 1 3027 0 0
+/listing/index/868 1 3024 0 0
+/listing/index/1678 1 3024 0 0
+/admin/banners/edit/6 1 2892 0 0
+/listing/index/861 1 3028 0 0
+/listing/index/1655 1 3028 0 0
+/suburb/index/92 2 7516 0 0
+/booking/booking_direct 5 23421 0 1
+/listing/index/526 1 3032 0 0
+/listing/index/1694 1 3023 0 0
+/ajax/getCityAjax/75 1 514 0 0
+/login/ 4 46661 0 4
+/city/index/83 2 5729 0 0
+/listing/index/91 1 3025 0 0
+/user/notifications 4 15145 0 0
+/listing/index/917 1 3023 0 0
+/ajax/editExtraInfo/128 6 6282 0 0
+/ajax/getRegionAjax/5 2 1174 0 0
+/admin/banners/add 1 2868 0 0
+/listing/index/1730 1 3027 0 0
+/listing/index/1259 1 3028 0 0
+/listing/index/558 2 6046 0 0
+/listing/index/366 1 3026 0 0
+/listing/index/981 1 3035 0 0
+/listing/index/543 1 3023 0 0
+/admin/booking_direct_mail_template_to_owner 2 6778 0 0
+/listing/index/1295 1 3023 0 0
+/listing/index/893 1 3023 0 0
+/listing/index/319 1 3024 0 0
+/suburb/index/67 1 4213 0 0
+/country/1 1 3085 0 0
+/listing/index/299 1 3024 0 0
+/listing/index/151 1 3025 0 0
+/city/index/84 2 5729 0 0
+/suburb/index/72 2 6396 0 0
+/listing/index/1749 1 3024 0 0
+/suburb/index/103 2 6949 0 0
+/listing/index/551 1 3028 0 0
+/listing/index/968 1 3024 0 0
+/listing/index/1667 1 3024 0 0
+/page/editpage/10 6 22392 0 0
+/listing/index/1702 1 3028 0 0
+/category/index/gr8escapes.com 1 3195 0 0
+/suburb/index/77 2 7547 0 0
+/login/index 16 62841 0 0
+/listing/index/388 1 3025 0 0
+/listing/index/103 1 3025 0 0
+/listing/index/940 1 3030 0 0
+/listing/index/387 1 3027 0 0
+/listing/index/1241 1 3025 0 0
+/admin/cityList 1 5085 0 0
+/user/accountInformation/save 15 55384 0 1
+/listing/index/307 1 3032 0 0
+/admin/deletePage/25 2 44 0 0
+/listing/index/346 1 3026 0 0
+/category/index/div.stars-overall-top 1 3195 0 0
+/listing/index/131 1 3028 0 0
+/suburb/index/88 2 8153 0 0
+/listing/index/1715 1 3025 0 0
+/listing/index/1773 1 3023 0 0
+/listing/index/949 1 3027 0 0
+/admin/editGroup/1 3 10027 0 0
+/listing/index/1247 1 3027 0 0
+/admin/users/list 21 66514 0 1
+/listing/index/990 1 3027 0 0
+/listing/index/389 1 3027 0 0
+/listing/index/1680 1 3024 0 0
+/listing/index/374 1 3024 0 0
+/listing/index/571 1 3028 0 0
+/ajax/getCityAjax/5 1 634 0 0
+/listing/index/998 1 3024 0 0
+/destination 6 17926 0 1
+/listing/index/1252 1 3024 0 0
+/escapedetails/NZ0000126 13 124139 1 0
+/admin/loadcategoryform 2 5562 0 0
+/listing/index/959 1 3023 0 0
+/listing/index/114 1 3025 0 0
+/listing/index/1284 1 3025 0 0
+/admin/deletePage/23 2 44 0 0
+/listing/index/1269 1 3025 0 0
+/suburb/index/53 2 6862 0 0
+/listing/index/414 1 3033 0 0
+/listing/index/1759 1 3023 0 0
+/listing/index/87 1 3024 0 0
+/escapedetails/NZ0000124 16 190694 1 1
+/listing/index/556 2 5790 0 0
+/user/addeditescape_general 1 86 1 0
+/listing/index/9 1 3051 0 0
+/category/index/18 12 50289 1 2
+/listing/index/878 1 3040 0 0
+/admin/view_all_testi 1 2997 0 0
+/admin/email_template/booking_to_owner 7 23357 0 1
+/listing/index/1270 1 3027 0 0
+/city/index/75 3 8340 0 0
+/listing/index/401 1 3023 0 0
+/listing/index/1670 1 3025 0 0
+/ajax/subscribe 1 218 1 0
+/listing/index/355 1 3025 0 0
+/listing/index/1291 1 3026 0 0
+/listing/index/965 1 3025 0 0
+/listing/index/292 1 3023 0 0
+/listing/index/866 1 3028 0 0
+/listing/index/1245 1 3030 0 0
+/listing/index/408 1 3022 0 0
+/listing/index/297 1 3025 0 0
+/owner/detail/81 3 13616 0 1
+/suburb/index/65 2 7212 0 0
+/admin/users/edit/82 2 10798 0 0
+/listing/index/302 1 3024 0 0
+/admin/chart 8 19366 0 0
+/ajax/editExtraInfo/126 5 5255 0 0
+/listing/index/930 1 3023 0 0
+/city/index/16 42 133106 1 1
+/listing/index/939 1 3024 0 0
+/listing/index/89 1 3024 0 0
+/listing/index/566 1 3027 0 0
+/user/addescape/RWUT6XCJVBTT 1 10247 0 0
+/listing/index/138 1 3026 0 0
+/listing/index/929 1 3027 0 0
+/listing/index/1659 1 3033 0 0
+/listing/index/925 1 3024 0 0
+/listing/index/536 1 3027 0 0
+/listing/index/884 1 3024 0 0
+/listing/index/881 1 3029 0 0
+/page/index 9 21486 0 0
+/city/index/6 7 22292 0 0
+/listing/index/1707 1 3026 0 0
+/suburb/index/110 1 4063 0 0
+/listing/index/255 6 17867 0 1
+/listing/index/898 1 3028 0 0
+/city/index/26 7 39947 1 2
+/listing/index/415 1 3025 0 0
+/listing/index/983 1 3033 0 0
+/privacypolicy 14 100518 4 0
+/admin/newTesti 1 3019 0 0
+/listing/index/1006 1 3024 0 0
+/listing/index/169 1 3023 0 0
+/home 21 110017 3 7
+/listing/index/1657 1 3023 0 0
+/listing/index/364 1 3032 0 0
+/country/New%20Zealand 2 6170 0 0
+/admin/order_lists 3 7254 0 0
+/listing/index/266 1 3085 0 0
+/listing/index/1740 1 3025 0 0
+/listing/index/369 1 3023 0 0
+/ajax/savepet 1 20 0 0
+/listing/index/942 1 3024 0 0
+/listing/index/1733 1 3029 0 0
+/listing/index/129 1 3029 0 0
+/listing/index/344 1 3032 0 0
+/listing/index/385 1 3027 0 0
+/listing/index/1650 1 3023 0 0
+/suburb/index/70 3 12374 0 0
+/listing/index/1665 1 3027 0 0
+/listing/index/1691 1 3028 0 0
+/listing/index/375 1 3035 0 0
+/listing/index/333 1 3025 0 0
+/listing/index/176 1 3025 0 0
+/region/index/ 1 3040 0 0
+/listing/index/1547 1 3007 1 0
+/user/ 15 53172 1 1
+/assets/backend/fonts/glyphicons_pro/glyphicons-regular.ttf 1 145672 0 0
+/listing/index/943 1 3026 0 0
+/listing/index/906 1 3024 0 0
+/ajax/checkAvailability 19 2543 0 0
+/listing/index/327 1 3024 0 0
+/listing/index/120 1 3033 0 0
+/listing/index/528 1 3027 0 0
+/listing/index/1262 1 3025 0 0
+/city/index/21 6 37051 1 1
+/listing/index/532 1 3024 0 0
+/index.php 13 199334 2 2
+/listing/index/338 1 3031 0 0
+/escapedetails/FJ0000126 1 9409 0 0
+/listing/index/1663 1 3025 0 0
+/listing/index/1700 1 3026 0 0
+/listing/index/290 1 3024 0 0
+/suburb/index/39 17 71924 0 0
+/city/index/77 2 5729 0 0
+/suburb/index/105 2 6601 0 0
+/listing/index/1662 1 3027 0 0
+/listing/index/1642 1 3025 0 0
+/listing/index/262 3 9129 0 0
+/listing/index/357 1 3024 0 0
+/listing/index/348 1 3024 0 0
+/listing/index/1267 1 3023 0 0
+/listing/index/153 1 3029 0 0
+/suburb/index/83 3 11787 0 0
+/listing/index/85 1 3026 0 0
+/listing/index/994 1 3025 0 0
+/listing/index/550 1 3025 0 0
+/suburb/index/69 2 6510 0 0
+/admin/banner_list 3 9477 0 0
+/listing/index/920 1 3034 0 0
+/listing/index/350 1 3038 0 0
+/admin/settings 9 26931 0 0
+/listing/index/1682 1 3028 0 0
+/listing/index/325 1 3025 0 0
+/user/addescape/S5KWUB95X4H7 5 51424 0 0
+/listing/index/295 1 3026 0 0
+/admin/location/city/add 1 3332 0 0
+/city/index/24 6 28244 1 1
+/listing/index/1685 1 3025 0 0
+/listing/index/1004 1 3031 0 0
+/listing/index/1297 1 3026 0 0
+/escapedetails/includes/captcha.php 2 19044 0 2
+/listing/index/116 1 3025 0 0
+/suburb/index/86 1 4464 0 0
+/listing/index/1705 1 3028 0 0
+/listing/index/900 1 3022 0 0
+/listing/index/379 1 3025 0 0
+/listing/index/897 1 3024 0 0
+/escapedetails/NZ0000213 1 9450 0 0
+/admin/deletePage/21 1 22 0 0
+/listing/index/1664 1 3025 0 0
+/admin/users_lists 8 24789 0 0
+/admin/pages/edit/27 2 6444 0 0
+/suburb/index/59 2 6495 0 0
+/listing/index/932 1 3027 0 0
+/listing/index/1005 1 3026 0 0
+/listing/index/1713 1 3026 0 0
+/region/index/New%20Zealand 3 3642 0 0
+/listing/index/189 1 3025 0 0
+/admin/testimonials/list 7 20907 0 0
+/listing/index/573 1 3026 0 0
+/region/index/4/wp-login.php 1 2872 1 0
+/listing/index/908 1 3023 0 0
+/listing/index/1747 1 3027 0 0
+/listing/index/1718 1 3025 0 0
+/listing/index/212 1 2999 0 0
+/listing/index/1242 1 3024 0 0
+/listing/index/561 1 3024 0 0
+/listing/index/958 1 3028 0 0
+/login/login 20 114926 0 4
+/listing/index/554 1 3025 0 0
+/admin/booking/list 12 30754 0 0
+/admin/users/edit/81 2 10956 0 0
+/admin/editCountry/5 1 2745 0 0
+/listing/index/148 1 3025 0 0
+/listing/index/697 1 3010 0 0
+/listing/index/109 1 3027 0 0
+/admin/updateMenu 11 1687 0 0
+/listing/index/915 1 3026 0 0
+/page/editpage/5 3 17000 0 1
+/admin/pages/add 13 41191 0 0
+/listing/index/955 1 3024 0 0
+/listing/index/16 1 3054 0 0
+/escapedetails/NZ0000118 1 9395 0 0
+/ajax/getSuburbAjax/43 8 4368 0 0
+/listing/index/937 1 3025 0 0
+/listing/index/154 1 3028 0 0
+/listing/index/136 1 3027 0 0
+/listing/index/118 1 3025 0 0
+/listing/index/1261 1 3025 0 0
+/admin/regionList 2 7570 0 0
+/listing/index/1738 1 3023 0 0
+/suburb/index/48 1 3144 0 0
+/listing/index/407 1 3025 0 0
+/listing/index/1677 1 3025 0 0
+/users/lists 7 13718 0 0
+/listing/index/546 1 3026 0 0
+/listing/index/538 1 3023 0 0
+/listing/index/991 1 3024 0 0
+/listing/index/399 1 3029 0 0
+/listing/index/1757 1 3024 0 0
+/listing/index/360 1 3033 0 0
+/listing/index/997 1 3024 0 0
+/listing/index/100 1 3025 0 0
+/escapedetails/115 1 55998 0 1
+/suburb/index/62 2 6493 0 0
+/suburb/index/52 2 7100 0 0
+/listing/index/121 1 3028 0 0
+/listing/index/92 1 3027 0 0
+/listing/index/875 1 3023 0 0
+/listing/index/1745 1 3023 0 0
+/listing/index/94 1 3026 0 0
+/listing/index/567 1 3025 0 0
+/listing/index/1735 1 3028 0 0
+/listing/index/1255 1 3026 0 0
+/listing/index/1689 1 3025 0 0
+/listing/index/160 1 3027 0 0
+/listing/index/1698 1 3025 0 0
+/suburb/index/41 2 6307 0 0
+/region/index/wp-login.php 1 2777 0 1
+/escapedetails/NZ0000115 3 29224 0 0
+/admin/deletePage/14 1 22 0 0
+/suburb/index/78 2 6295 0 0
+/listing/index/1000 1 3025 0 0
+/suburb/index/99 1 3760 0 0
+/listing/index/392 1 3024 0 0
+/admin/editCategory/19 1 2789 0 0
+/listing/index/145 1 3024 0 0
+/admin/add_new_menu_item 6 127 0 0
+/listing/index/318 1 3026 0 0
+/listing/index/1248 1 3027 0 0
+/home/faq 2 346 1 1
+/listing/index/1724 1 3028 0 0
+/listing/index/313 1 3025 0 0
+/listing/index/139 1 3025 0 0
+/region/index/4 8 24286 0 1
+/listing/index/411 1 3028 0 0
+/admin/location/country/edit/9 1 2745 0 0
+/city/index/58 1 2871 0 0
+/listing/index/1767 1 3025 0 0
+/listing/index/384 1 3025 0 0
+/admin/menu/section/list 11 32665 0 0
+/admin/editpage/20 1 3193 0 0
+/listing/index/186 2 6031 0 0
+/listing/index/960 1 3030 0 0
+/order/lists 3 4608 1 0
+/city/index/80 2 5729 0 0
+/listing/index/391 1 3029 0 0
+/suburb/index/95 2 7306 0 0
+/listing/index/1 4 11840 0 0
+/booking/booking_and_pay 2 444 0 0
+/booking/paymentsuccess 4 13800 1 2
+/suburb/index/91 2 6992 0 0
+/ajax/getCityAjax/2 22 14038 0 1
+/escapedetails/NZ0000123 1 9395 0 0
+/listing/index/400 1 3025 0 0
+/admin/menu/edit/3 1 3475 0 0
+/listing/index/410 1 3024 0 0
+/escapedetails/index/94 1 53179 0 0
+/listing/index/888 1 3023 0 0
+/listing/index/406 1 3026 0 0
+/listing/index/1754 1 3034 0 0
+/user/addescape/5FPGQGVKRKW5 13 144611 0 0
+/listing/index/191 1 3024 0 0
+/listing/index/534 1 3022 0 0
+/city/index/79 5 13804 0 1
+/listing/index/1290 1 3025 0 0
+/listing/index/934 1 3024 0 0
+/city/index/86 2 5729 0 0
+/admin/email_template/booking_request_to_owner 12 40188 0 0
+/admin/newCity 1 3343 0 0
+/admin/email_template/register 8 26391 0 0
+/listing/index/1265 1 3022 0 0
+/escapedetails/NZ0000116 2 18846 0 0
+/region/index/9 4 12038 0 0
+/listing/index/1720 1 3027 0 0
+/user/index 22 89956 1 0
+/listing/index/1703 1 3025 0 0
+/cancellationpolicy 9 35419 1 1
+/suburb/index/106 2 7095 0 0
+/listing/index/90 1 3026 0 0
+/listing/index/1280 1 3028 0 0
+/register/success 1 3087 0 0
+/listing/index/985 1 3024 0 0
+/listing/index/1660 1 3027 0 0
+/listing/index/260 2 6052 0 0
+/listing/index/570 1 3025 0 0
+/admin/location/suburb/add 1 3190 0 0
+/admin/categories/edit/25 1 2787 0 0
+/listing/index/171 1 3024 0 0
+/register 32 341012 3 8
+/listing/index/563 1 3023 0 0
+/owner/detail/73 47 184207 4 2
+/user/editProfile 15 75769 1 0
+/admin/escapes/detail/124 4 12247 0 0
+/ajax/getRegionAjax/4 6 3384 0 0
+/ajax/getCityAjax/78 1 514 0 0
+/property/propertyDetail/125 3 5226 0 0
+/admin/email_template/booking_to_buyer 12 40301 0 0
+/users/editUser/73 1 4452 0 0
+/listing/index/256 1 3025 0 0
+/listing/index/895 1 3023 0 0
+/listing/index/352 1 3026 0 0
+/listing/index/107 1 3025 0 0
+/listing/index/979 1 3023 0 0
+/listing/index/1063 1 2758 0 0
+/listing/index/178 1 3024 0 0
+/listing/index/127 1 3030 0 0
+/listing/index/552 1 3025 0 0
+/ajax/getCityAjax/16 3 1653 0 0
+/Rarotonga 2 6208 0 0
+/escapedetails/index/125 2 19079 1 1
+/listing/index/922 1 3023 0 0
+/listing/index/913 1 3025 0 0
+/escapedetails/NZ00125 7 67179 0 0
+/listing/index/150 1 3025 0 0
+/listing/index/367 1 3024 0 0
+/listing/index/1736 1 3026 0 0
+/suburb/index/84 1 3570 0 0
+/listing/index/976 1 3026 0 0
+/listing/index/306 1 3024 0 0
+/admin/menu/section/add 5 14120 0 0
+/listing/index/134 1 3027 0 0
+/banner 1 2057 0 0
+/listing/index/891 1 3026 0 0
+/listing/index/184 1 3024 0 0
+/listing/index/365 1 3027 0 0
+/listing/index/259 1 3025 0 0
+/listing/index/1760 1 3026 0 0
+/admin/email_template/forget 15 48822 0 0
+/listing/index/1652 1 3032 0 0
+/listing/index/19 1 3052 0 0
+/admin/location/country/list 9 27904 0 0
+/admin/editpage/14 1 3532 0 0
+/listing/index/987 1 3025 0 0
+/escapedetails/PIE.htc 2 62440 0 2
+/listing/index/1729 1 3023 0 0
+/listing/index/397 1 3023 0 0
+/listing/index/1272 1 3024 0 0
+/listing/index/321 1 3024 0 0
+/listing/index/1289 1 3029 0 0
+/admin/editpage/5 3 19638 0 1
+/listing/index/362 1 3023 0 0
+/city/index/56 4 11199 0 0
+/register/accountcreated 5 34022 0 1
+/listing/index/383 1 3028 0 0
+/listing/index/162 1 3024 0 0
+/listing/index/886 1 3026 0 0
+/listing/index/911 1 3024 0 0
+/listing/index/541 1 3029 0 0
+/listing/index/335 1 3022 0 0
+/listing/index/1716 1 3027 0 0
+/suburb/index/74 2 7247 0 0
+/listing/index/1675 1 3026 0 0
+/listing/index/1687 1 3025 0 0
+/listing/index/859 1 3025 0 0
+/search/ 2 11130 0 0
+/listing/index/123 1 3027 0 0
+/owner/detail/44 2 9175 0 0
+/listing/index/83 1 3026 0 0
+/listing/index/1257 1 3030 0 0
+/listing/index/862 1 3025 0 0
+/listing/index/946 1 3026 0 0
+/listing/index/1009 1 3029 0 0
+/ajax/getSuburbAjax/54 1 235 0 0
+/suburb/index/93 2 6944 0 0
+/listing/index/980 1 3025 0 0
+/suburb/index/43 3 12512 0 0
+/listing/index/394 1 3025 0 0
+/city/index/gr8escapes.com 1 2858 0 0
+/listing/index/1697 1 3025 0 0
+/listing/index/539 2 6018 0 0
+/listing/index/341 1 3032 0 0
+/listing/index/404 1 3025 0 0
+/suburb/index/54 4 13297 0 0
+/region/index/10 6 18413 0 0
+/listing/index/548 1 3025 0 0
+/listing/index/143 1 3024 0 0
+/users/adduser 4 17064 0 2
+/dashboard 7 13857 1 2
+/listing/index/1002 1 3025 0 0
+/listing/index/1726 1 3031 0 0
+/escapedetails/join.php 2 19028 2 0
+/listing/index/311 1 3025 0 0
+/listing/index/316 1 3034 0 0
+/listing/index/372 1 3026 0 0
+/admin/users/add 6 32053 0 0
+/listing/index/1669 1 3023 0 0
+/ajax/editGalleryImg/125 6 2328 0 0
+/admin/testimonials/add 1 3017 0 0
+/suburb/index/81 1 3237 0 0
+/listing/index/575 1 3024 0 0
+/listing/index/105 1 3028 0 0
+/listing/index/111 1 3024 0 0
+/listing/index/902 1 3025 0 0
+/listing/index/1275 1 3025 0 0
+/admin/addUpdatePage 4 1031 0 0
+/city/index/73 1 2871 0 0
+/escapedetails/NZ0000121 1 9395 0 0
+/city/index/22 10 61149 1 1
+/listing/index/1644 1 3025 0 0
+/suburb/index/97 2 7330 0 0
+/city/index/13 5 34655 2 2
+/listing/index/1258 1 3026 0 0
+/owner/detail/87 2 8866 0 1
+/listing/index/331 1 3023 0 0
+/listing/index/1647 1 3027 0 0
+/ajax/loadRefineSearchResults 1 408 0 0
+/ajax/sendenquiry 2 42 0 1
+/listing/index/104 1 3029 0 0
+/listing/index/416 1 3027 0 0
+/listing/index/530 1 3024 0 0
+/ajax/getCityAjax/54 3 1542 0 0
+/listing/index/974 1 3023 0 0
+/admin/newRegion 1 2986 0 0
+/listing/index/872 1 3026 0 0
+/listing/index/858 1 3026 0 0
+/listing/index/137 1 3027 0 0
+/listing/index/903 1 3027 0 0
+/suburb/index/37 2 7154 0 0
+/listing/index/124 1 3024 0 0
+/listing/index/363 1 3023 0 0
+/listing/index/1273 1 3022 0 0
+/listing/index/267 1 3015 0 0
+/listing/index/559 2 5778 0 0
+/region/index/Checking... 1 3026 0 0
+/country/test 1 3085 0 1
+/suburb/index/71 2 6779 0 0
+/listing/index/182 1 3028 0 0
+/city/index/5 6 31051 0 1
+/listing/index/254 3 9082 0 0
+/listing/index/1668 1 3025 0 0
+/city/index/72 2 5729 0 0
+/suburb/index/42 3 13689 0 0
+/listing/index/324 1 3027 0 0
+/listing/index/894 1 3026 0 0
+/listing/index/1752 1 3024 0 0
+/listing/index/152 1 3001 0 0
+/suburb/index/101 1 3569 0 0
+/listing/index/1748 1 3025 0 0
+/listing/index/106 1 3027 0 0
+/admin/editCity/95 1 3407 0 0
+/ajax/getCityAjax/76 1 514 0 0
+/listing/index/918 1 3024 0 0
+/listing/index/1701 1 3022 0 0
+/listing/index/557 1 3023 0 0
+/listing/index/1692 1 3024 0 0
+/register/newMember 1 5570 0 0
+/suburb/index/102 2 7071 0 0
+/listing/index/967 1 3026 0 0
+/listing/index/163 1 3026 0 0
+/listing/index/345 1 3022 0 0
+/admin/deletePage/26 1 22 0 0
+/suburb/index/108 2 7292 0 0
+/listing/index/300 1 3024 0 0
+/assets/backend/fonts/glyphicons_pro/glyphicons-regular.woff 28 1272824 0 0
+/listing/index/1751 1 3026 0 0
+/listing/index/376 1 3023 0 0
+/admin/pages/edit/26 1 3214 0 0
+/listing/index/1654 1 3032 0 0
+/listing/index/941 1 3023 0 0
+/listing/index/1732 1 3027 0 0
+/listing/index/542 2 5775 0 0
+/listing/index/1731 1 3027 0 0
+/suburb/index/76 2 6697 0 0
+/listing/index/165 1 3024 0 0
+/listing/index/905 1 3024 0 0
+/admin/escapeDetail/124 3 8348 0 0
+/suburb/index/66 1 3377 0 0
+/escapedetails/NZ0000120 1 9468 0 0
+/admin/disable_menu_item 7 1053 0 0
+/listing/index/403 1 3024 0 0
+/category/index/23 2 7044 0 0
+/admin/earning_lists 1 2714 0 0
+/region/index/3 1 3039 0 0
+/suburb/index/57 2 6879 0 0
+/listing/index/113 1 3028 0 0
+/ajax/getCityAjax/12 1 599 0 0
+/listing/index/1772 1 3026 0 0
+/listing/index/81 1 3030 0 0
+/listing/index/1244 1 3026 0 0
+/listing/index/936 1 3028 0 0
+/admin/banners/list 9 28576 0 1
+/listing/index/1001 1 3024 0 0
+/listing/index/982 1 3023 0 0
+/listing/index/1251 1 3023 0 0
+/suburb/index/45 5 23317 0 0
+/listing/index/1287 1 3024 0 0
+/listing/index/1695 1 3026 0 0
+/listing/index/962 1 3032 0 0
+/listing/index/99 1 3027 0 0
+/admin/deletePage/27 1 22 0 0
+/listing/index/879 1 3031 0 0
+/listing/index/179 1 3027 0 0
+/listing/index/950 1 3027 0 0
+/listing/index/41 1 3053 0 0
+/listing/index/1768 1 3026 0 0
+/listing/index/652 2 6079 1 0
+/listing/index/361 1 3024 0 0
+/listing/index/1714 1 3027 0 0
+/ajax/editGalleryImg/128 2 682 0 0
+/city/index/30 7 21378 1 0
+/listing/index/870 1 3025 0 0
+/listing/index/1722 1 3025 0 0
+/listing/index/1649 1 3026 0 0
+/admin 43 55015 24 3
+/listing/index/1278 1 3022 0 0
+/listing/index/293 1 3023 0 0
+/listing/index/382 1 3034 0 0
+/listing/index/989 1 3029 0 0
+/listing/index/359 1 3027 0 0
+/city/index/55 1 2871 0 0
+/listing/index/1263 1 3025 0 0
+/listing/index/953 1 3024 0 0
+/listing/index/190 1 3025 0 0
+/ajax/getRegionAjax/ 1 725 0 0
+/ajax/getRegionAjax/8 2 1158 0 0
+/admin/newCountry 1 2739 0 0
+/listing/index/916 1 3034 0 0
+/listing/index/996 1 3026 0 0
+/listing/index/1656 1 3023 0 0
+/listing/index/899 1 3023 0 0
+/listing/index/885 1 3023 0 0
+/listing/index/1725 1 3026 0 0
+/terms 19 374407 3 8
+/listing/index/102 1 3026 0 0
+/listing/index/343 1 3023 0 0
+/listing/index/860 1 3025 0 0
+/page/editpage/13 1 3662 0 0
+/listing/index/185 1 3027 0 0
+/listing/index/310 1 3033 0 0
+/listing/index/180 1 3029 0 0
+/listing/index/126 1 3026 0 0
+/suburb/index/111 1 3514 0 0
+/listing/index/531 1 3023 0 0
+/admin/pages/edit/18 1 3625 0 0
+/admin/groups/edit/1 6 19397 0 0
+/booking/request_confirm 8 25211 0 0
+/listing/index/984 1 3025 0 0
+/listing/index/1706 1 3022 0 0
+/listing/index/1671 1 3026 0 0
+/ajax/getCityAjax/56 1 514 0 0
+/listing/index/159 1 3024 0 0
+/admin/pages/list 31 108285 0 0
+/listing/index/1688 1 3025 0 0
+/listing/index/168 1 3023 0 0
+/listing/index/555 1 3024 0 0
+/city/index/82 3 8337 1 0
+/listing/index/1690 1 3029 0 0
+/listing/index/378 1 3026 0 0
+/admin/location/suburb/list 3 48004 0 0
+/suburb/index/82 2 6774 0 0
+/listing/index/535 1 3023 0 0
+/listing/index/1666 1 3030 0 0
+/ajax/getRegionAjax/1 41 30814 0 1
+/user/inbox 3 11630 0 1
+/location/countryList 1 1977 0 1
+/listing/index/1758 1 3024 0 0
+/listing/index/892 1 3024 0 0
+/listing/index/390 1 3023 0 0
+/listing/index/1007 1 3024 0 0
+/listing/index/337 1 3030 0 0
+/listing/index/1708 1 3025 0 0
+/suburb/index/104 2 6855 0 0
+/listing/index/386 1 3023 0 0
+/admin/earning/list 5 13524 0 0
+/listing/index/301 1 3022 0 0
+/listing/index/1010 1 3024 0 0
+/listing/index/880 1 3040 0 0
+/listing/index/969 1 3028 0 0
+/listing/index/527 1 3024 0 0
+/listing/index/1673 1 3026 0 0
+/listing/index/187 1 3024 0 0
+/listing/index/1739 1 3024 0 0
+/listing/index/1734 1 3026 0 0
+/listing/index/977 1 3027 0 0
+/listing/index/1741 1 3026 0 0
+/listing/index/328 1 3024 0 0
+/listing/index/944 1 3024 0 0
+/listing/index/889 1 3027 0 0
+/escapedetails/NZ00005 5 38200 0 0
+/listing/index/560 1 3025 0 0
+/listing/index/926 1 3025 0 0
+/listing/index/565 1 3032 0 0
+/listing/index/309 1 3025 0 0
+/listing/index/119 1 3026 0 0
+/admin/location/region/add 1 2979 0 0
+/city/index/29 5 25098 0 0
+/listing/index/308 1 3031 0 0
+/listing/index/88 1 3028 0 0
+/listing/index/1712 1 3027 0 0
+/user/allrequestBuyer 2 3902 0 0
+/admin/escapes/list 16 61676 0 1
+/admin/deletePage/29 3 60 0 0
+/listing/index/132 1 3026 0 0
+/city/index/74 4 12375 0 0
+/admin/forget_mail_template 8 23980 0 1
+/ajax/getSuburbAjax/47 5 2055 0 0
+/listing/index/970 1 3024 0 0
+/listing/index/147 1 3025 0 0
+/listing/index/999 1 3023 0 0
+/listing/index/1253 1 3023 0 0
+/escapedetails/NZ000098 12 112227 5 5
+/admin/categories/add 5 14012 0 0
+/category/index/21 7 40676 2 2
+/admin/pages/edit/28 1 3231 0 0
+/escapedetails/NZ0000125 2 19320 0 2
+/suburb/index/47 8 53911 0 0
+/listing/index/544 1 3025 0 0
+/listing/index/413 1 3029 0 0
+/listing/index/317 1 3025 0 0
+/admin/countryList 3 9369 0 0
+/listing/index/409 1 3026 0 0
+/listing/index/402 1 3025 0 0
+/region/index/Rarotonga 1 3132 0 0
+/listing/index/1249 1 3024 0 0
+/listing/index/754 1 2759 1 1
+/listing/index/1277 1 3028 0 0
+/listing/index/380 1 3024 0 0
+/page/editpage/9 1 2483 0 0
+/listing/index/373 1 3026 0 0
+/listing/index/1285 1 3027 0 0
+/listing/index/964 1 3024 0 0
+/admin/newsuburb 1 3197 0 0
+/admin/addgroup 1 3152 0 0
+/listing/index/952 1 3025 0 0
+/listing/index/26 1 3056 0 0
+/ajax/getSuburbAjax/55 3 1437 0 0
+/listing/index/1756 1 3024 0 0
+/listing/index/877 1 3024 0 0
+/listing/index/97 1 3027 0 0
+/login/fblogin 1 20 0 0
+/category/index/Checking... 1 3195 0 0
+/admin/page_loadform 13 40799 0 0
+/suburb/index/64 2 6704 0 0
+/admin/location/suburb/edit/1460 1 3553 0 0
+/listing/index/1679 1 3027 0 0
+/listing/index/8 1 3054 0 0
+/admin/menu/edit/1 69 230805 0 0
+/listing/index/354 1 3025 0 0
+/city/index/19 4 21323 1 1
+/listing/index/1271 1 3029 0 0
+/region/index/New%20zealand 2 6609 0 0
+/listing/index/291 1 3024 0 0
+/admin/editpage/22 1 3187 0 0
+/dashboard/index 19 37611 0 2
+/listing/index/1658 1 3025 0 0
+/listing/index/869 1 3024 0 0
+/listing/index/1681 1 3026 0 0
+/listing/index/213 1 2996 0 0
+/admin/email_template/booking_request_to_buyer 12 40347 0 0
+/listing/index/1292 1 3023 0 0
+/Vanuatu 1 3171 0 0
+/suburb/index/89 1 3820 0 0
+/suburb/index/50 2 8425 1 0
+/listing/index/303 1 3033 0 0
+/listing/index/972 1 3025 0 0
+/listing/index/1268 1 3030 0 0
+/user/addescape/5MINPABXRZRA 6 63787 0 0
+/listing/index/1774 1 3023 0 0
+/admin/escapeList 10 39370 0 0
+/listing/index/572 1 3026 0 0
+/listing/index/1765 1 3024 0 0
+/listing/index/928 1 3024 0 0
+/listing/index/696 1 3007 0 1
+/listing/index/975 1 3026 0 0
+/listing/index/1243 1 3024 0 0
+/user/accountInformation/accountInformation 1 4254 0 0
+/listing/index/334 1 3024 0 0
+/suburb/index/75 2 7297 0 0
+/listing/index/883 1 3021 0 0
+/listing/index/368 1 3022 0 0
+/listing/index/1699 1 3025 0 0
+/listing/index/1696 1 3022 0 0
+/listing/index/569 1 3023 0 0
+/listing/index/1254 1 3024 0 0
+/listing/index/1651 1 3023 0 0
+/listing/index/529 1 3026 0 0
+/buyer/detail/67 2 11122 1 1
+/user/accountInformation/accountInformation/save 9 38235 0 0
+/testimonials/view_all 1 1871 0 0
+/listing/index/1737 1 3029 0 0
+/city/index/Checking... 1 2858 0 0
+/listing/index/545 5 14835 0 0
+/listing/index/93 1 3025 0 0
+/listing/index/537 2 6078 0 0
+/subscriber/index 2 3605 0 0
+/groups/editGroup/4 1 2214 0 1
+/region/index/7 6 16814 0 1
+/listing/index/140 1 3022 0 0
+/listing/index/988 1 3027 0 0
+/listing/index/412 1 3028 0 0
+/listing/index/568 1 3023 0 0
+/admin/users/edit/70 1 5414 0 0
+/suburb/index/98 2 6403 0 0
+/listing/index/95 1 3026 0 0
+/earnings/lists 3 5625 0 0
+/user/addescape 19 190175 0 2
+/listing/index/992 1 3025 0 0
+/listing/index/393 1 3023 0 0
+/suburb/index/55 13 50093 0 1
+/listing/index/304 1 3028 0 0
+/listing/index/101 1 3024 0 0
+/listing/index/863 1 3024 0 0
+/listing/index/1764 1 3031 0 0
+/admin/menu/edit/2 8 28886 0 1
+/listing/index/909 1 3034 0 0
+/listing/index/1727 1 3027 0 0
+/user/bookingRequests 4 14675 0 0
+/escapedetails/NZ0000122 1 9395 0 0
+/Fiji 1 3192 0 0
+/region/index/6 6 18328 0 0
+/listing/index/882 1 3024 0 0
+/suburb/index/79 2 7147 0 0
+/listing/index/405 1 3025 0 0
+/listing/index/1686 1 3023 0 0
+/listing/index/887 1 3025 0 0
+/user/mainEarning 4 14913 0 0
+/city/index/81 1 2871 0 0
+/suburb/index/46 11 35116 0 0
+/listing/index/339 1 3023 0 0
+/admin/testimonials/edit/21 1 3065 0 0
+/listing/index/1676 1 3026 0 0
+/listing/index/192 1 3025 0 0
+/listing/index/3 2 5818 0 0
+/category/lists 8 40348 1 2
+/listing/index/1643 1 3032 0 0
+/listing/index/173 1 3026 0 0
+/listing/index/1661 1 3024 0 0
+/listing/index/927 1 3025 0 0
+/admin/update_forget_mail_template 1 349 0 0
+/listing/index/1266 1 3025 0 0
+/listing/index/954 1 3024 0 0
+/admin/group_lists 5 14521 0 0
+/listing/index/146 1 3025 0 1
+/city/index/76 1 2871 0 0
+/listing/index/86 1 3026 0 0
+/admin/editsuburb/1730 1 3491 0 0
+/listing/index/995 1 3025 0 0
+/category/index/19 8 26916 0 0
+/ajax/getSuburbAjax/ 1 339 0 0
+/New%20Zealand 8 28235 0 0
+/escapedetails/NZ0000117 1 9407 0 0
+/listing/index/130 1 3029 0 0
+/city/index/25 6 26735 0 0
+/ajax/editEachfixedProp 1 135 0 0
+/user/escapeList 13 46913 0 1
+/listing/index/966 1 3023 0 0
+/suburb/index/68 1 3601 0 0
+/listing/index/1298 1 3025 0 0
+/page 9 21101 0 1
+/forgotpassword/change_process/bjRsNTU0bDR3NGo0MTRzNTk0azQ0Njc0ZDRnNGg0bjIzNHg1ajQ 2 7431 0 0
+/listing/index/377 1 3023 0 0
+/listing/index/931 1 3027 0 0
+/suburb/index/58 2 6400 0 0
+/suburb/index/87 2 6413 0 0
+/listing/index/356 1 3029 0 0
+/listing/index/342 1 3029 0 0
+/property/escapeList 35 101667 1 2
+/page/editpage/2 5 68061 0 0
+/admin/categories/list 6 18582 0 0
+/admin/index 8 10718 1 1
+/ajax/getSuburbAjax/44 1 232 0 0
+/listing/index/371 1 3025 0 0
+/admin/deletePage/24 1 22 0 0
+/city/index/27 3 9262 0 0
+/listing/index/1276 1 3025 0 0
+/listing/index/1296 1 3027 0 0
+/listing/index/1721 1 3023 0 0
+/listing/index/986 2 14821 1 1
+/forgotpassword/get_password 3 509 0 0
+/ajax/getSuburbAjax/36 1 664 0 0
+/listing/index/540 1 3023 0 0
+/admin/ 2 3057 1 0
+/city/16 1 3085 0 0
+/listing/index/890 1 3026 0 0
+/listing/index/1746 1 3022 0 0
+/escapedetails/NZ0000214 1 9450 0 0
+/listing/index/914 1 3035 0 0
+/listing/index/1571 1 3006 1 1
+/suburb/index/63 1 3980 0 0
+/listing/index/876 1 3036 0 0
+/admin/editpage/10 5 20587 0 0
+/listing/index/945 1 3025 0 0
+/suburb/index/49 1 3150 0 0
+/admin/subscribers/list 8 23580 0 1
+/user/accountInformation/ 8 33926 0 0
+/user/accountInformation/accountInformation/accountInformation/save 1 4249 0 0
+/home/contactsendemail_help 1 20 0 1
+/listing/index/128 1 3025 0 0
+/listing/index/1260 1 3023 0 0
+/listing/index/349 1 3026 0 0
+/listing/index/117 1 3029 0 0
+/admin/suburbList 1 16039 0 0
+/listing/index/907 1 3023 0 0
+/listing/index/562 1 3024 0 0
+/listing/index/1761 1 3023 0 0
+/listing/index/1683 1 3025 0 0
+/listing/index/1011 1 3025 0 0
+/listing/index/298 1 3033 0 0
+/listing/index/1164 2 22772 2 2
+/admin/subscriber_all 2 5760 0 0
+/listing/index/1719 1 3027 0 0
+/escapedetails/FJ00000126 1 9409 0 0
+/listing/index/867 1 3025 0 0
+/ajax/editExtraInfo/127 1 1051 0 0
+/listing/index/574 1 3026 0 0
+/city/index/7 5 15546 0 0
+/listing/index/27 1 3053 0 0
+/admin/editTesti/25 1 3031 0 0
+/admin/menu/section_list 2 6087 0 0
+/listing/index/938 1 3026 0 0
+/listing/index/1653 1 3026 0 0
+/admin/location/city/edit/94 1 3391 0 0
+/admin/editUser/82 1 5412 0 0
+/escapedetails/index/124 1 9541 0 0
+/listing/index/935 1 3025 0 0
+/listing/index/549 1 3024 0 0
+/listing/index/322 1 3029 0 0
+/city/index/ 1 2871 0 0
+/listing/index/398 1 3023 0 0
+/listing/index/912 1 3024 0 0
+/listing/index/1674 1 3025 0 0
+/setting 7 14113 1 2
+/escapedetails/FJ0126 1 9409 0 0
+/listing/index/1274 1 3025 0 0
+/listing/index/1283 1 3024 0 0
+/listing/index/340 1 3024 0 0
+/listing/index/395 1 3025 0 0
+/listing/index/122 1 3024 0 0
+/Samoa 1 3144 0 0
+/listing/index/1728 1 3025 0 0
+/listing/index/1744 1 3028 0 0
+/forgotpassword/change_process/bDRoNXA0ajQ4NGw0ODRhNHYyazRuNWw0cDRlNDM0YTRjNDQ0OTR4NWg0 3 11108 1 1
+/admin/escapes/detail/128 1 3198 0 0
+/charts 2 3094 0 0
+/listing/index/161 1 3027 0 0
+/suburb/index/73 2 6706 0 0
+/listing/index/576 1 3025 0 0
+/suburb/index/61 1 3434 0 0
+/listing/index/1256 1 3026 0 0
+/listing/index/961 1 3023 0 0
+/listing/index/874 1 3025 0 0
+/listing/index/865 1 3026 0 0
+/listing/index/216 1 2995 0 0
+/suburb/index/85 1 3811 0 0
+/listing/index/901 1 3023 0 0
+/autodiscover/autodiscover.xml 1 17 0 1
+/listing/index/1755 1 3036 0 0
+/listing/index/315 1 3025 0 0
+/listing/index/115 1 3029 0 0
+/listing/index/1766 1 3025 0 0
+/region/index/5 8 24695 0 1
+/suburb/index/90 2 7613 0 0
+/Chatham%20Islands 2 6149 0 0
+/listing/index/82 1 3025 0 0
+/category/ 1 3206 0 0
+/listing/index/896 1 3025 0 0
+/ajax/getSuburbAjax/39 2 1148 0 0
+/listing/index/1003 1 3024 0 0
+/suburb/index/80 1 3241 0 0
+/admin/editbanner/8 1 2902 0 0
+/listing/index/370 1 3026 0 0
+/listing/index/948 1 3023 0 0
+/listing/index/993 1 3025 0 0
+/admin/categoryList 1 3061 0 0
+/listing/index/84 1 3026 0 0
+/listing/index/1645 1 3034 0 0
+/admin/pages/edit/9 8 27236 1 1
+/suburb/index/96 3 15511 0 0
+/user/notifdetails/139 1 4863 0 0
+/listing/index/358 1 3024 0 0
+/user/ownerBankDetails 9 22081 0 0
+/listing/index/110 1 3027 0 0
+/listing/index/547 2 5777 0 0
+/booking/success 5 14913 0 0
+/listing/index/314 1 3026 0 0
+/groups/lists 4 7112 0 0
+/region/index/8 4 12611 0 0
+/user 33 107139 1 3
+/admin/location/country/edit/5 2 5472 0 0
+/suburb/index/100 1 3767 0 0
+/listing/index/1684 1 3027 0 0
+/suburb/index/38 2 8560 0 0
+/listing/index/158 1 3026 0 0
+/suburb/index/40 2 7880 0 0
+/listing/index/347 1 3023 0 0
+/listing/index/261 1 3012 0 0
+/suburb/index/107 1 5467 0 0
+/listing/index/533 1 3022 0 0
+/region/index/1 9 30372 1 0
+/listing/index/135 1 3027 0 0
+/listing/index/956 1 3024 0 0
+/booking/request 2 467 0 0
+/listing/index/296 1 3023 0 0
+/listing/index/1710 1 3025 0 0
+/city/index/85 2 5729 0 0
+/ajax/editExtraInfo/125 13 13663 0 0
+/listing/index/973 1 3026 0 0
+/listing/index/1281 1 3024 0 0
+/listing/index/1246 1 3025 0 0
+/listing/index/1294 1 3023 0 0
+/listing/index/1704 1 3028 0 0
+/listing/index/282 1 11638 0 0
+/city/index/78 3 8639 0 0
+/listing/index/172 1 3025 0 0
+/listing/index/98 1 3032 0 0
+/register/ 4 22308 0 0
+/listing/index/326 1 3024 0 0
+/region/index/10/wp-login.php 1 2851 0 0
+/listing/index/332 1 3031 0 0
+/listing/index/1402 1 3012 0 1
+/listing/index/1743 1 3025 0 0
+/listing/index/553 1 3025 0 0
+/listing/index/657 1 3002 0 0
+/listing/index/177 1 3025 0 0
+/listing/index/957 1 3026 0 0
+/listing/index/924 1 3022 0 0
+/admin/loadBannerForm 1 2879 0 0
+/listing/index/1264 1 3028 0 0
+/listing/index/564 1 3027 0 0
+/suburb/index/109 2 6337 0 0
+/listing/index/919 1 3027 0 0
+/listing/index/227 1 2997 0 0
+/helpsupport 67 247860 0 0
+/admin/users/edit/68 1 5394 0 0
+/admin/groups/edit/4 1 3182 0 0
+/category/index/25 12 57228 2 2
+/admin/deletePage/22 1 22 0 0
+/listing/index/258 2 6077 0 0
+/listing/index/351 1 3024 0 0
+/listing/index/320 1 3024 0 0
+/listing/index/108 2 6070 0 0
+/howitworks 40 181381 4 11
+/listing/index/1750 1 3025 0 0
+/escapedetails/NZ00002 1 9486 0 1
+/contactsupport 2 6633 0 0
+/listing/index/1770 1 3025 0 0
+/listing/index/1763 1 3023 0 0
+/forgotpassword 57 190598 1 2
+/listing/index/305 1 3026 0 0
+/listing/index/183 1 3027 0 0
+/listing/index/1288 1 3023 0 0
+/listing/index/921 1 3023 0 0
+/listing/index/1717 1 3029 0 0
+/admin/location/city/list 5 25604 0 0
+END_SIDER

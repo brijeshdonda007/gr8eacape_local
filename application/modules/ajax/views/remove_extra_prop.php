@@ -1,0 +1,1 @@
+<a href="<?php echo base_url();?>ajax/deleteExtraProp/<?php echo $this->uri->segment(3);?>" onclick="return confirm('Are you sure want to delete');">Delete</a>

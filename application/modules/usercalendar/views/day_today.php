@@ -1,0 +1,1 @@
+<div style="background: red;" class="booked-days"><div class="day_num"><?php echo $dayf;?></div><div class="content">booked</div></div>

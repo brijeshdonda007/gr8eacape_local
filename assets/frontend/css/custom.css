@@ -1,0 +1,63 @@
+/***
+Item block with details shown on hover
+***/
+.item {
+	overflow: hidden;
+	display: block;
+	margin-bottom: 20px;
+			
+}
+.item .details a {color:#fff !important;}
+#show_image_gallery  .span2 {margin:0 10px !important; }
+.item .details {
+	width: 100%;
+	display: none;
+	background-color: #000;
+	color: #fff !important;
+	padding: 5px;	
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+	margin-bottom: -40px;
+	overflow: hidden;
+	z-index: 6;
+}
+.item:hover .details {
+	display: block;
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+}
+.item:hover .zoom-icon {
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+/***
+Zoom icon overlay on images
+***/
+.zoom {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 5;
+}
+.zoom .zoom-icon {
+	background-image: url("../img/overlay-icon.png");
+	background-color: #222;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	z-index: 6;
+	top: 0;
+}
+a.cross {
+    margin-top: 2px !important;
+    font-size: 16px !important;
+    margin-right: -10px !important;
+    color: red !important;
+}
+a.cross:hover {text-decoration:none !important; }

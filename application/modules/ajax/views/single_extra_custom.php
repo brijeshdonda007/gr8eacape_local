@@ -1,0 +1,2 @@
+<input id="type_<?php echo ($exp->id).$i;?>"type="text" class="txt" value="<?php echo $exp->type; ?>"  name="ctype[]">
+<input id="value_<?php echo ($exp->id).$i;?>"type="text" class="txt" value="<?php echo $exp->value; ?>" name="cvalue[]">
